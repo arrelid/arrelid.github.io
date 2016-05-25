@@ -1,0 +1,23 @@
+title: "#define ❤︎"
+description:
+  Ramblings. Mostly about digital products, but sometimes
+  about actual useful stuff.
+
+permalink: /posts/:title
+url: "http://arrelid.com"
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+gems:
+  - jekyll-redirect-from # Ingenious redirects - https://github.com/jekyll/jekyll-redirect-from

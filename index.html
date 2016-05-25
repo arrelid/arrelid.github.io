@@ -1,8 +1,18 @@
-<html>
-  <head>
-    <title>arrelid.com</title>
-  </head>
-  <body>
-    Testing, testing...
-  </body>
-</html>
+---
+layout: default
+---
+
+{% include header.html %}
+
+<div class="blog">
+    <h1>Blog Posts:</h1>
+    <br />
+    <div style="display:table; table-layout:fixed;">
+    {% for post in site.posts %}
+      <div style="display:table-row;">
+        <div style="display:table-cell; width:100px; padding-bottom:10px;">{{ post.date | date: '%Y %b %d' }}</div>
+        <div style="display:table-cell; padding-bottom:10px;"><a href="{{ post.url }}">{{ post.title }}</a></div>
+      </div>
+    {% endfor %}
+    </div>
+</div>
