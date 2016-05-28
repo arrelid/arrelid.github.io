@@ -67,6 +67,14 @@ ul {
     }
 }
 
+hr {
+    height: 1px;
+    background: #cccccc;
+    width: 100%;
+    overflow: hidden;
+    border: none;
+}
+
 .wrapper {
     max-width: 600px;
     margin: auto;
