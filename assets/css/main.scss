@@ -201,6 +201,11 @@ hr {
                 padding-left: 0;
             }
         }
+
+        // Match paragraph (bottom) margin
+        div.highlighter-rouge {
+            margin-bottom: 15px;
+        }
     }
 }
 
