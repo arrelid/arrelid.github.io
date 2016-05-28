@@ -9,7 +9,7 @@ title: You're full?
 
 _Update October 12, 2011: iOS 5 is now readily available for public consumption, and it solves a part of the problem - you can now figure out how much space each and every application is occupying (original post below image):_
 
-![Application usage overview](http://media.tumblr.com/tumblr_lsyualFiD81qdosfj.png)
+![Application usage overview](/assets/posts-resources/iphone-app-storage.png)
 
 _Update April 5, 2011: iTunes on my computer will show me storage space per class (different classes from what my phone shows, but hey). Given that I now know that my applications occupy 12 GB, I still can't figure out which one(s) I should remove, since iTunes only displays how big the binaries are - not how much space each app + its support files occupy._
 
@@ -21,7 +21,7 @@ This itself isn't really a problem - it's natural for drives to fill up. My prim
 
 Or maybe Steve Jobs thinks this will help me:
 
-![iPhone memory usage](http://media.tumblr.com/tumblr_lj6kpuK5AG1qdosfj.png "iPhone memory usage")
+![iPhone memory usage](/assets/posts-resources/iphone-generic-storage.png)
 
 Let's think about this for a while...
 

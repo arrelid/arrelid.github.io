@@ -9,7 +9,7 @@ title: How to improve AirPlay, take I
 
 Did you ever try to stream audio over AirPlay to an AirPort Express that was _already playing_ audio from some other device? If so, I'm pretty sure you've experienced the dreaded __AirPlay Speaker Not Available__ error message.
 
-![Error message screenshot](http://media.tumblr.com/tumblr_lyxjboKhPO1qdosfj.png)
+![Error message screenshot](/assets/posts-resources/airplay-speaker-not-available.png)
 
 This error message seems justifiable - it wouldn't make sense to stream from two devices simultaneously. Steve Jobs sure knew his stuff!
 
