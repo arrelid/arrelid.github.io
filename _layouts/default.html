@@ -40,27 +40,28 @@
       u.prototype.a=function(a){a=a||"BESbswy";var b="font-style:"+this.style+";font-variant:"+this.variant+";font-weight:"+this.weight+";font-stretch:"+this.stretch+";font-feature-settings:"+this.featureSettings+";-moz-font-feature-settings:"+this.featureSettings+";-webkit-font-feature-settings:"+this.featureSettings+";",c=document.createElement("div"),k=new e(a),l=new e(a),m=new e(a),f=-1,d=-1,g=-1,n=-1,p=-1,q=-1,h=this;r(k,"sans-serif",b);r(l,"serif",b);r(m,"monospace",b);c.appendChild(k.a);c.appendChild(l.a);
         c.appendChild(m.a);document.body.appendChild(c);n=k.a.offsetWidth;p=l.a.offsetWidth;q=m.a.offsetWidth;return new Promise(function(a,y){function w(){null!==c.parentNode&&document.body.removeChild(c)}function x(){if(-1!==f&&-1!==d&&-1!==g&&f===d&&d===g){if(null===v){var b=/AppleWeb[kK]it\/([0-9]+)(?:\.([0-9]+))/.exec(window.navigator.userAgent);v=!!b&&(536>parseInt(b[1],10)||536===parseInt(b[1],10)&&11>=parseInt(b[2],10))}v?f===n&&d===n&&g===n||f===p&&d===p&&g===p||f===q&&d===q&&g===q||(w(),a(h)):(w(),
               a(h))}}setTimeout(function(){w();y(h)},3E3);t(k,function(a){f=a;x()});r(k,h.family+",sans-serif",b);t(l,function(a){d=a;x()});r(l,h.family+",serif",b);t(m,function(a){g=a;x()});r(m,h.family+",monospace",b)})};window.FontFaceObserver=u;window.FontFaceObserver.prototype.check=u.prototype.a;}());
-      /*
-         Fonts are loaded through @font-face rules in the CSS whenever an element references them.
-         FontFaceObserver creates a referencing element to trigger the font request, and lsisten for font load events.
-         When all 3 fonts are loaded, we enable them by adding a class to the html element
-       */
+
       (function( w ){
         // if the class is already set, we're good.
         if( w.document.documentElement.className.indexOf( "fonts-loaded" ) > -1 ){
           return;
         }
-        var fontA = new w.FontFaceObserver( "Inconsolata", {
+        var fontNormal = new w.FontFaceObserver("Inconsolata", {
           weight: 400
         });
-        var fontB = new w.FontFaceObserver( "Inconsolata", {
+        var fontBold = new w.FontFaceObserver("Inconsolata", {
           weight: 700
         });
-        w.Promise
-          .all([fontA.check(), fontB.check()])
-          .then(function(){
-            w.document.documentElement.className += " fonts-loaded";
-          });
+
+        w.Promise.all([
+          fontNormal.check(null, 1000),
+          fontBold.check(null, 1000)
+        ]).then(function() {
+          w.document.documentElement.className += " fonts-loaded";
+          }, function() {
+          w.document.documentElement.className += " fonts-timeout";
+        });
+
       }( this ));
     </script>
 
