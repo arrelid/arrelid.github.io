@@ -25,4 +25,9 @@ Garmin uses 7z file compression. The downloaded file has the extension `.exe`. C
 ## Copy to the SD Card
 There will be a folder called `Root`. Open that folder and drag the Garmin folder onto the SD card.
 
+## Install the software
+- Power up your Garmin device.
+- After it's completely powered up, insert the SD Card.
+- Follow instructions to update.
+
 Tadaaaa! You just installed a Garmin update without a PC. Brilliant.
