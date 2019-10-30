@@ -19,5 +19,5 @@ markdown: kramdown
 kramdown:
   input: GFM
 
-gems:
+plugins:
   - jekyll-redirect-from # Ingenious redirects - https://github.com/jekyll/jekyll-redirect-from
