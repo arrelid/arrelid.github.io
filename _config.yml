@@ -6,12 +6,6 @@ description:
 permalink: /posts/:title
 url: "http://arrelid.com"
 
-exclude:
-  - CNAME
-  - Gemfile
-  - Gemfile.lock
-  - gems
-
 sass:
   sass_dir: _sass
   style: compressed
@@ -22,3 +16,9 @@ kramdown:
 
 plugins:
   - jekyll-redirect-from # Ingenious redirects - https://github.com/jekyll/jekyll-redirect-from
+
+redirect_from:
+  json: false # Released in version 0.16.0, GH Pages uses 0.15.0... oh well, keeping it for now
+
+source: site-src
+destination: site-build
