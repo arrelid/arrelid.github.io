@@ -1,24 +1,26 @@
+url: "http://arrelid.com"
+
 title: "#define ❤︎"
-description:
+author: Mattias Arrelid
+description: >-
   Ramblings. Mostly about digital products, but sometimes
   about actual useful stuff.
 
+twitter_username: arrelid
+github_username:  arrelid
+
 permalink: /posts/:title
-url: "http://arrelid.com"
 
-sass:
-  sass_dir: _sass
-  style: compressed
+header_pages:
+  - about.md
 
-markdown: kramdown
-kramdown:
-  input: GFM
+theme: minima
 
 plugins:
-  - jekyll-redirect-from # Ingenious redirects - https://github.com/jekyll/jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-redirect-from
 
-redirect_from:
-  json: false # Released in version 0.16.0, GH Pages uses 0.15.0... oh well, keeping it for now
-
-source: site-src
-destination: site-build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - gems/

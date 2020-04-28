@@ -1,4 +1,7 @@
+.jekyll-cache
+.jekyll-metadata
 .ruby-version
-Gemfile.*
+.sass-cache
+Gemfile.lock
+_site
 gems
-site-build

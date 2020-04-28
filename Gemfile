@@ -1,4 +1,5 @@
-source 'https://rubygems.org'
-gem "jekyll", "~> 3.8"
-gem 'jekyll-redirect-from'
-gem 'github-pages', group: :jekyll_plugins
+source "https://rubygems.org"
+
+gem "minima", "~> 2.5"
+gem "github-pages", "~> 204"
+
