@@ -10,6 +10,7 @@ exclude:
   - CNAME
   - Gemfile
   - Gemfile.lock
+  - gems
 
 sass:
   sass_dir: _sass
