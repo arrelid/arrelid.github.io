@@ -8,4 +8,6 @@ Hi there. My name is Mattias Arrelid. I'm passionate about building great produc
 
 ![Photo of Mattias](/assets/images/mattias.jpg)
 
-During daytime, you'll find me at the [Spotify HQ](https://spotify.com) in Stockholm. During nighttime, I'm hopefully sleeping. In between, I try to spend time with friends & family.
+Now: [CPO at Alight](https://www.alight-energy.com)
+
+Past: [Spotify](https://spotify.com)
