@@ -8,6 +8,6 @@ Hi there. My name is Mattias Arrelid. I'm passionate about building great produc
 
 ![Photo of Mattias](/assets/images/mattias.jpg)
 
-Now: [CPO at Alight](https://www.alight-energy.com)
+Now: [CPO at Devant](https://devant.ai/)
 
-Past: [Spotify](https://spotify.com)
+Past: [Alight](https://alight-energy.com/), [Spotify](https://spotify.com/), +more.
