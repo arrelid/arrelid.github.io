@@ -10,7 +10,7 @@ My dad recently purchased a Garmin echoMAP CHIRP 72sv. Checking its software ver
 
 You'll want a formatted SD card, 7zip, and a copy of the Garmin software you want to update your device to.
 
-```
+```sh
 brew install p7zip
 7z e ~/Downloads/echoMAPwithSDCard_20170612.exe
 mv gupdate.gcd Garmin
